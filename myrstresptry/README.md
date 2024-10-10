@@ -1,2 +1,0 @@
-# myrstresptry
-CD test
