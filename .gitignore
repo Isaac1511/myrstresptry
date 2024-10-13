@@ -2,6 +2,9 @@
 *.tfstate
 *.tfstate.backup
 
+# Ignore Seceret txt files
+*.txt
+
 # Ignore Terraform variable files
 *vars.tf
 
