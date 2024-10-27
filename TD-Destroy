@@ -1,0 +1,12 @@
+#!/bin/bash
+
+chmod +x ./TD-Destroy
+
+# Run terraform destroy.
+if terraform destroy  -target=azurerm_linux_virtual_machine.DevLabTF-vm001  -auto-approve;
+then 
+    echo "Resources have been destroyed successfully."
+else
+    echo "Error: Resource could not be found nor destroyed."
+    exit 1
+fi
