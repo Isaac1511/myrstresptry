@@ -1,2 +1,2 @@
 # myrstresptry
-CD test
+CI/CD test
